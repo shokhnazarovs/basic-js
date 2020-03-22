@@ -39,7 +39,7 @@ describe('Carbon dating', () => {
     });
   });
 
-  describe('functional requirements ', () => {   
+  describe('functional requirements ', () => {
     it.optional('basic examples', () => {
       assert.equal(dateSample('3'), 13308);
       assert.equal(dateSample('1'), 22392);
@@ -160,5 +160,5 @@ describe('Carbon dating', () => {
       assert.equal(dateSample('-5'), false);
       assert.equal(dateSample('-55.8'), false);
     });
-  });  
+  });
 });
